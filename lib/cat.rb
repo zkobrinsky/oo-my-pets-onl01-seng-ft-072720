@@ -12,7 +12,6 @@ class Cat
     @owner = owner
     Owner.new(owner)
     save
-    binding.pry
   end
 
 
