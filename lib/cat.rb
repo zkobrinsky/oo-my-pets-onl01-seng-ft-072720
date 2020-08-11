@@ -9,18 +9,12 @@ class Cat
   def initialize(name, owner)
     @name = name
     @mood = "nervous"
-    self.owner=(owner)
+    @owner = Owner.new(owner)
     save
     binding.pry
   end
 
-  def owner=(name)
-    @owner = Owner.new(name)
-  end
 
-  def owner
-    @owner.name
-  end
 
 
 
