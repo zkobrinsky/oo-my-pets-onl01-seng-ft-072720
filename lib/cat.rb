@@ -14,6 +14,10 @@ class Cat
     binding.pry
   end
 
+  def new_owner=(name)
+    name = Owner.new(name)
+  end
+
 
 
   def save
