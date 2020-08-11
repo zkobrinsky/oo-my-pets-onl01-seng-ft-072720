@@ -4,9 +4,8 @@ class Cat
 
   def initialize(name, owner)
     @name = name
-
-    if Owner.all.include?{|o| o.name == owner
-    binding.pry}
+    binding.pry
+    if Owner.all.include?{|o| o.name == owner}
   end
 
 
