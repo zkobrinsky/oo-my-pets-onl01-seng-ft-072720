@@ -6,6 +6,11 @@ class Owner
   def initialize(name)
     @name = name
     @species = "human"
+    save
+  end
+
+  def save
+    @@all << self
   end
 
   def say_species
