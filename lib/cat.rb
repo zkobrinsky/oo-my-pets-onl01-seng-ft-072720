@@ -11,9 +11,7 @@ class Cat
     @owner = Owner.new(owner)
     @mood = "nervous"
     save
-
-    # binding.pry
-    # if Owner.all.include?{|o| o.name == owner}
+    binding.pry
   end
 
 
