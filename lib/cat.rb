@@ -5,6 +5,7 @@ class Cat
     @name = name
     if Owner.all.include?{|o| o.name == owner
     binding.pry}
+  end
 
 
 
