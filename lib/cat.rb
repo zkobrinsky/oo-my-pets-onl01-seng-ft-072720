@@ -5,7 +5,7 @@ class Cat
   def initialize(name, owner)
     @name = name
     binding.pry
-    if Owner.all.include?{|o| o.name == owner}
+    # if Owner.all.include?{|o| o.name == owner}
   end
 
 
