@@ -14,7 +14,7 @@ class Cat
   end
 
   def name
-    self.Owner.name
+    self.owner.name
   end
 
 
