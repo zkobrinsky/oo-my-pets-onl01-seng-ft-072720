@@ -13,7 +13,9 @@ class Cat
     save
   end
 
-
+  def owner=(name)
+    self.Owner.name = name
+  end
 
 
 
