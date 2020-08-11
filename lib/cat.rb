@@ -4,14 +4,13 @@ class Cat
 
   def initialize(name, owner)
     @name = name
+    save
+
     # binding.pry
     # if Owner.all.include?{|o| o.name == owner}
   end
 
 
-
-    save
-  end
 
   def save
     @@all << self
