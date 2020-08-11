@@ -9,8 +9,7 @@ class Cat
   def initialize(name, owner)
     @name = name
     @mood = "nervous"
-    @owner = owner
-    Owner.new(owner)
+    @owner = Owner.new(owner)
     save
   end
 
